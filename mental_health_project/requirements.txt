@@ -1,0 +1,16 @@
+flask
+pandas
+numpy
+scikit-learn
+scikit-fuzzy
+nltk
+transformers
+torch
+joblib
+reportlab
+matplotlib
+seaborn
+xgboost
+tensorflow
+scipy
+shap

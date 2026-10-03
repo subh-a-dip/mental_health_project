@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Python data / caches
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Large raw training data (gitignored, reproducible via retrain scripts)
+mental_health_project/data/
+
+# Frontend deps / build output
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Vite / TypeScript build cache
+*.tsbuildinfo
+.vite/
+.eslintcache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# AGENTS.md runtime state (Kilo local)
+AGENTS.md
+.kilo/
